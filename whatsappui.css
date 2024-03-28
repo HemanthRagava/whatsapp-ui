@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.whatsapp {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #e5ddd5; /* WhatsApp background color */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat {
+    padding: 20px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.received {
+    background-color: #dcf8c6; /* WhatsApp received message background color */
+    text-align: left;
+}
+ 
+.sent {
+    background-color: #d3d3d3; /* WhatsApp sent message background color */
+    text-align: right;
+}
+
+.input-area {
+    display: flex;
+    padding: 10px;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.input-area button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #128C7E; /* WhatsApp send button color */
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
